@@ -1,6 +1,8 @@
-﻿namespace YoutubeApi.Domain.Entities
+﻿using YoutubeApi.Domain.Common;
+
+namespace YoutubeApi.Domain.Entities
 {
-    public class Product
+    public class Product : EntityBase
     {
         public string Name { get; set; }
         public string Description { get; set; }
