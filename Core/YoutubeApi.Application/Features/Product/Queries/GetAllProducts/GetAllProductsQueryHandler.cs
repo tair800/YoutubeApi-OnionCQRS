@@ -41,7 +41,8 @@ namespace YoutubeApi.Application.Features.Product.Queries.GetAllProducts
             foreach (var product in map)
                 product.Price = (product.Price * product.Discount / 100);
 
-            return map;
+            //return map;
+            throw new Exception("Hata mesaji");
 
         }
     }
