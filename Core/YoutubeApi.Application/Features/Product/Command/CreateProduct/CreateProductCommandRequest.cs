@@ -2,7 +2,7 @@
 
 namespace YoutubeApi.Application.Features.Product.Command.CreateProduct
 {
-    public class CreateProductCommandRequest : IRequest
+    public class CreateProductCommandRequest : IRequest<Unit>
     {
         public string Name { get; set; }
         public string Description { get; set; }
