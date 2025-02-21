@@ -2,7 +2,7 @@
 
 namespace YoutubeApi.Application.Features.Product.Exceptions
 {
-    public class ProductTitleMustNotBeSameException : BaseExceptions
+    public class ProductTitleMustNotBeSameException : BaseException
     {
         public ProductTitleMustNotBeSameException() : base("Urun bashligi artig movcuddur")
         {
