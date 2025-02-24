@@ -6,4 +6,6 @@ namespace YoutubeApi.Application.Features.Auth.Exceptions
     {
         public EmailOrPasswordShouldntBeInvalidException() : base("Email or Password is wrong") { }
     }
+
+
 }

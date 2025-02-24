@@ -7,5 +7,4 @@ namespace YoutubeApi.Application.Features.Auth.Exceptions
         public UserAlreadyExistException() : base("User already exist") { }
     }
 
-
 }
