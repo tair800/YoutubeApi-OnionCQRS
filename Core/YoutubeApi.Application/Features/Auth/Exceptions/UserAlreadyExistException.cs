@@ -7,4 +7,9 @@ namespace YoutubeApi.Application.Features.Auth.Exceptions
         public UserAlreadyExistException() : base("User already exist") { }
     }
 
+    public class EmailAdressShouldBeValidException : BaseException
+    {
+        public EmailAdressShouldBeValidException() : base("Email adress is not valid") { }
+    }
+
 }
